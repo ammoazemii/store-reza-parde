@@ -1,0 +1,45 @@
+.container{
+    display: flex;
+    align-items: center;
+    
+}
+
+h3{
+    color: brown;
+}
+
+.mohtava{
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 700px;
+    height: 500px;
+    margin-right: 10px;
+}
+.mohtava p{
+    width: 400px;
+    font-size: medium;
+    text-align: center;
+    text-align: justify;
+    margin-right: 25px;
+}
+body{
+    background-color: #5e35b1;
+}
+.btnsabad{
+    background-color: green;
+    width: 150px;
+    height: 50px;
+    margin-right: 25px;
+
+}
+.mohtava h3{
+    text-align: center;
+    font-size: larger;
+}
+.mohtava h5{
+    font-size: large;
+    margin-right: 15px;
+    color: orangered;
+
+}

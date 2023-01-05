@@ -1,0 +1,81 @@
+body {
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  width: 100vw;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+.slider .inner {
+  width: 700px;
+  height: 400px;
+  position: relative;
+  z-index: 10;
+}
+.slider .inner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.slider .btn {
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 50%;
+  padding: 5px 8px;
+  position: absolute;
+  top: 50%;
+  z-index: 20;
+  cursor: pointer;
+}
+.slider .btn:hover {
+  background: white;
+  color: black;
+  border: solid thin black;
+}
+.slider .btn.btn-prev {
+  left: 0;
+}
+.slider .btn.btn-next {
+  right: 0;
+}
+.slider .bullets {
+  position: absolute;
+  bottom: 10px;
+  z-index: 20;
+  color: white;
+  text-shadow: 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray, 0 0 3px gray;
+}
+.slider .bullets .active {
+  color: orange;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: flex;
+  animation: show 1s 1;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*# sourceMappingURL=global.css.map */

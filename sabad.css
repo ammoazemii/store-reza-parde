@@ -1,0 +1,63 @@
+ @font-face{
+    font-family: 'Vazir-Medium-FD';
+    src: url('./assets/fonts/vazir-font-v27.2.2-Fontjo.com/Farsi-Digits/Vazir-Medium-FD.woff');
+} 
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Vazir-Medium-FD';
+    direction: rtl;
+    padding: 0;
+    margin: 0;
+    background-color: #5e35b1;
+}
+.products{
+    background: #ffffff;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+    margin: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product{
+    width: 500px;
+}
+.product img{
+    width: 500px;
+    height: 280px;
+}
+.product--price{
+    color: green;
+    font-size: 14px;
+}
+.add-to-cart{
+    background-color: #5e35b1;
+    color: #ffffff;
+}
+.cart{
+    background: #ffffff;
+}
+.cart--title{
+    text-align: center;
+    color: #5e35b1;
+    border-bottom: #5e35b1 2px dotted;
+}
+.cart--item{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    direction: rtl;
+    text-align: center;
+}
+.cart--item-remove{
+    color:#ffffff;
+    background-color: red;
+}
+.cart--title-price{
+    margin-right: 580px;
+    font-size: large;
+    color: #5e35b1;
+}
